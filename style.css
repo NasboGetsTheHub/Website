@@ -14,19 +14,6 @@ img {max-height: 20%;}
 </style>         
 <head>
 <style>
- body {
- background: linear-gradient(109.6deg, rgba(119, 44, 232, 0.68) 11.5%, rgb(119, 44, 232) 91.2%);
- height: 100vh;
- margin: 0
- display: flex;
- justify-content: center;
- align-items: center;
- height: 100vh;
- margin: 0;
- overflow: hidden;
- color: white;
- display: flex;
-}
  
  .tab-box {
    width: 80%;
