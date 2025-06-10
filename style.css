@@ -1,18 +1,14 @@
-<style>
-@import url('https://fonts.cdnfonts.com/css/gg-sans-2');
-</style>
- <div class="image"
-<img src="/pfp/pillow.png"
+<div class="image"
+<img src="pillow.png"
 </div>
 <style>
-
-		.cointainer {display: grid;}
-		  align-items: {center;}
-	    grid-template-columns: {1fr 1fr 1fr;}
-     column-gap: {5px;}
+.cointainer {display: grid;}
+ align-items: {center;}
+grid-template-columns: {1fr 1fr 1fr;}
+column-gap: {5px;}
      
-		  img {max-width: 40%;}
-		  img {max-height: 20%;}
-	
-		.text {font-size: 20px;}
+img {max-width: 40%;}
+img {max-height: 20%;}
+
+.text {font-size: 20px;}
 </style>
