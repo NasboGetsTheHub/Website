@@ -2,16 +2,17 @@ body {
  background-image: url("paper.gif");
  background-color: #cccccc;
 }
-div {
-  width: 100px;
-  height: 100px;
-  background: red;
-  position: relative;
-  animation: mymove 5s infinite;
+.box:hover {
+  animation-name: rotate;
+  animation-duration: 0.7s;
   animation-direction: alternate;
 }
 
-@keyframes mymove {
-  from {left: 0px;}
-  to {left: 200px;}
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
