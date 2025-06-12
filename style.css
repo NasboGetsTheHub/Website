@@ -2,6 +2,12 @@ body {
  background-image: url("paper.gif");
  background-color: #cccccc;
 }
+.box {
+  background-color: rebeccapurple;
+  border-radius: 10px;
+  width: 100px;
+  height: 100px;
+}
 .box:hover {
   animation-name: rotate;
   animation-duration: 0.7s;
