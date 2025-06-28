@@ -1,12 +1,18 @@
 body {
  background-image: url("https://cdn.discordapp.com/attachments/1381721790677647360/1388551725010391131/IMG_20250628_164617.jpg?ex=68616511&is=68601391&hm=07939b3e4e2da5ed1c28680e08c7ee214564a7329f2afbbd11f3d8f740ac9fc8&");
  background-color: #cccccc;
+ height: 100vh;
+ margin: 0;
+ display: flex;
+ justify-content: center;
+ align-items: center;
 }
 /* Style the tab */
 .tab-box {
-  width 70%
-  margin: 0;
-  display: flex;
+  width 70%;
+  margin: 50px auto;
+  padding: 20px;
+  background: rgba(207 ,207, 207, 0.3)
   justify-content: center;
   align-items: center;
   height: 100vh;
@@ -17,18 +23,24 @@ body {
 
 /* Style the buttons that are used to open the tab content */
 .tab-button {
-  background-color: inherit;
+  background-color: rgba(112,29,219,0,458);
+  display: inline-block;
   float: left;
   border: none;
   outline: none;
+  font-size: 18px;
   cursor: pointer;
-  padding: 14px 16px;
-  transition: 0.3s;
+  margin: 10px;
+  border-radius: 20px;
+  backdrop-filter: blur(5px);
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
 }
 
 /* Change background color of buttons on hover */
 .tab-button:hover {
   background-color: #ddd;
+  color: white;
 }
 
 /* Create an active/current tablink class */
