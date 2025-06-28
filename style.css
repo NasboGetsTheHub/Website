@@ -1,5 +1,5 @@
 body {
- background-image: url("paper.gif");
+ background-image: url("https://cdn.discordapp.com/attachments/1381721790677647360/1388551725010391131/IMG_20250628_164617.jpg?ex=68616511&is=68601391&hm=07939b3e4e2da5ed1c28680e08c7ee214564a7329f2afbbd11f3d8f740ac9fc8&");
  background-color: #cccccc;
 }
 /* Style the tab */
@@ -54,3 +54,6 @@ body {
 .button3 {border-radius: 8px;}
 .button4 {border-radius: 12px;}
 .button5 {border-radius: 50%;}
+.my-div {
+  background-color: rgba(255,255,255,0.5);
+}
