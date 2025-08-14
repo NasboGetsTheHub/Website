@@ -1,16 +1,20 @@
-function openCity(evt, cityName) {
-  var i, tabcontent, tablinks;
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("tablinks");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" active", "");
-  }
-  document.getElementById(cityName).style.display = "block";
-  evt.currentTarget.className += " active";
+function openTab(evt, tabName) {
+            
+let tabContent = document.getElementsByClassName("tab-content");
+for (let i = 0; i < tabContent.length; i++) {
+tabContent[i].style.display = "none";
+}
+          
+let tabButtons = document.getElementsByClassName("tab-button");
+for (let i = 0; i < tabButtons.length; i++) {
+tabButtons[i].classList.remove("active");
+}
+   
+document.getElementById(tabName).style.display = "block";
+               
+ evt.currentTarget.classList.add("active");
 }
 
-// Get the element with id="defaultOpen" and click on it
-document.getElementById("defaultOpen").click();
+document.addEventListener('DOMContentLoaded', function () {
+document.querySelector('.tab-button.active').click();
+});
