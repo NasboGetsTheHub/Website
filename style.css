@@ -32,6 +32,7 @@ border-radius: 20px;
 backdrop-filter: blur(10px); 
 box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
 }
+
 /* Tab content styling */
 .tab-content {
 display: none;
@@ -48,6 +49,7 @@ text-align: center;
 .tab-content.active {
 display: block;
 }
+
 /* Tab buttons inside the box */
 .tab-button {
 background-color: rgba(112,29,219,0.458);
@@ -97,6 +99,7 @@ zoom: 0.75; =
  zoom: 0.5; 
  }
 }
+
 img {
   width: 400px,
   height: 300px
