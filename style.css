@@ -24,7 +24,7 @@
   }
 }
 .tab-box {
-width: 70%;
+width: 80%;
 margin: 50px auto;
 padding: 20px;
 background: rgba(207,207,207,0.3); /* Semi-transparent background */
@@ -32,23 +32,23 @@ border-radius: 20px;
 backdrop-filter: blur(10px); 
 box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
 }
-        /* Tab content styling */
-        .tab-content {
-            display: none;
-            margin-top: 20px;
-            padding: 20px;
-            background-color: rgba(255, 255, 255, 0.3);
-            border-radius: 20px;
-            backdrop-filter: blur(15px); /* Apply the blur effect */
-            color: black;
-            text-align: center;
-        }
+/* Tab content styling */
+.tab-content {
+display: none;
+margin-top: 20px;
+padding: 20px;
+background-color: rgba(255, 255, 255, 0.3);
+border-radius: 20px;
+backdrop-filter: blur(15px); /* Apply the blur effect */
+color: black;
+text-align: center;
+}
 
-	/* Show active content */
+/* Show active content */
 .tab-content.active {
 display: block;
 }
-		 /* Tab buttons inside the box */
+/* Tab buttons inside the box */
 .tab-button {
 background-color: rgba(112,29,219,0.458);
 border: none;
@@ -64,19 +64,19 @@ display: inline-block;
 }
 
 /* Active tab button style */
-        .tab-button.active {
-         background-color: rgba(191,146,255,0.572);
-         color: white;
-		}
+.tab-button.active {
+background-color: rgba(191,146,255,0.572);
+color: white;
+}
  
-        /* Change button color on hover */
-        .tab-button:hover {
-            background-color: rgba(191,146,255,0.572);
-		}
+/* Change button color on hover */
+.tab-button:hover {
+background-color: rgba(191,146,255,0.572);
+}
 		
- h2 {
- color: white;
- }    
+h2 {
+color: white;
+}    
  
 p {
 color white;
@@ -85,23 +85,11 @@ color white;
 h1 {
 color: white;
 }
-.desktop-layout {
-display: grid;
-grid-template-columns: repeat(3, 1fr);
-gap: 21px;
-}
 
-.desktop-layout div {
-background: #ddd;
-padding: 20px;
-text-align: center;
- }
-
-@media (max-width: 1200px) 
-{
+@media (max-width: 1200px) {
  html {
 zoom: 0.75; =
-}
+ }
 }
  
  @media (max-width: 800px) {
