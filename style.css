@@ -101,6 +101,6 @@ zoom: 0.75; =
 }
 
 img {
-  width: 400px,
-  height: 300px
+  max-width: 40%;
+  height: auto;
 }
