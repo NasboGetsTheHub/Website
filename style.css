@@ -56,11 +56,6 @@ display: inline-block;
             text-align: center;
         }
         
-/* Show active content */
-.tab-content.active {
-display: block;
-}
-
  h2 {
  color: white;
  }    
