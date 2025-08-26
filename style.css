@@ -97,3 +97,7 @@ zoom: 0.75; =
  zoom: 0.5; 
  }
 }
+img {
+  width: 400px,
+  height: 300px
+}
