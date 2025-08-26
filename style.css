@@ -1,11 +1,12 @@
 body {
- background-url: https://cdn.discordapp.com/attachments/1140372266086039692/1405472797832122418/IMG_20250715_090901.jpg?ex=689ef40b&is=689da28b&hm=febb408ff7f404f661256ed23695d71789aaa4fd94d5396b12f7a5172e56a927&
+ background
+ font-family: 'Roboto', sans-serif;
  height: 100vh;
  margin: 0;
  display: flex;
  justify-content: center;
  align-items: center;
-		}
+ }
 		
  .tab-box {
   width 70%;
