@@ -1,4 +1,4 @@
-/* /|\ TEH NASBO WEBSITE CSS | Fully custom by Nayra* /|\ */
+/* /|\ THE NASBO WEBSITE CSS | Fully custom by Nayra* /|\ */
 
 @import url("https://transfer.archivete.am/12GDuV/segoe_fontz.css");
 
@@ -169,4 +169,5 @@ container[type="var-b"] > div#gimmicks-pge > iframe {
     border-bottom: solid 0.5px rgb(255 255 255 / 35%);
     pointer-events: all;
     user-select: all;
+
 }
