@@ -76,8 +76,8 @@ color: white;
 background-color: rgba(191,146,255,0.572);
 }
 img {
- width: 70px;
- height: 70px;
+ max-width: 30%;
+ height: auto;
 }
 h2 {
 color: white;
