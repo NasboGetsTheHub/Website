@@ -59,10 +59,7 @@ button {
 .hide {
 display: none;
 }
-img {
-display: block;
-height: 70px;
-}
+
 /* -- Da main page!! -- */
 
 [type="mainpage"] {
@@ -85,6 +82,9 @@ height: 70px;
         flex-direction: column;
         height: 80%;
     }
+    container {
+        margin: 2.5px !important;
+    }
     div[type="mainpage"] > cr {
         margin: 0px 20px 0px 20px;
         border-right: hidden;
@@ -100,6 +100,18 @@ height: 70px;
         overflow: hidden !important;
         width: 130%;
         margin-left: -41px;
+    }
+    container[type="var-a"] > h1 {
+        font-size: calc(170%)!important;
+    }
+    container[type="var-a"] > p {
+        font-size: calc(90%)!important;
+    }
+    container[type="var-a"] > img {
+        width: calc(100% / 3.5)!important;
+    }
+    container[type="var-a"] > div.tabs > button {
+        font-size: calc(100% / 1.05)!important;
     }
 }
 
@@ -172,9 +184,4 @@ container[type="var-b"] > div#gimmicks-pge > iframe {
     border-bottom: solid 0.5px rgb(255 255 255 / 35%);
     pointer-events: all;
     user-select: all;
-
 }
-
-
-
-
