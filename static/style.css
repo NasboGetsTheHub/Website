@@ -59,7 +59,11 @@ button {
 .hide {
 display: none;
 }
-
+img {
+display: block;
+max-width: 100px;
+max-height: 100px;
+}
 /* -- Da main page!! -- */
 
 [type="mainpage"] {
@@ -171,3 +175,4 @@ container[type="var-b"] > div#gimmicks-pge > iframe {
     user-select: all;
 
 }
+
