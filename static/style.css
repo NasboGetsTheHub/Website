@@ -1,0 +1,172 @@
+/* /|\ TEH NASBO WEBSITE CSS | Fully custom by Nayra* /|\ */
+
+@import url("https://transfer.archivete.am/12GDuV/segoe_fontz.css");
+
+:root {
+    --web-font: "Segoe UI", Segoe UI Light, Segoe UI Bold;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: "Segoe UI";
+	color: white;
+}
+
+@keyframes bg_gradient {
+0% {
+background-position: 0% 50%;
+}
+25% {
+background-position: 100% 50%;
+}
+50% {
+background-position: 50% 50%;
+}
+75% {
+background-position: 25% 50%;
+}
+100% {
+background-position: 0% 50%;
+}
+}
+
+/* --- The big CSS stuff --- */
+
+html, body {
+    background: center/200% 250% no-repeat linear-gradient(-45deg, #9a1fff, #a940ff, #be73ff, #917aff);
+    font-family: var(--web-font);
+    animation: bg_gradient 15s ease infinite;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    pointer-events: none;
+}
+
+h1, h2 {
+    font-family: 'Segoe UI Light';
+    font-weight: normal;
+}
+h1, h2, p {
+	margin: 0;
+	padding: 0;
+}
+button {
+    pointer-events: all;
+}
+.hide {
+display: none;
+}
+
+/* -- Da main page!! -- */
+
+[type="mainpage"] {
+    background: rgb(255 255 255 / 35%);
+    border-radius: 25px;
+    height: 65%;
+    width: 85%;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-wrap: nowrap;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+@media screen and (max-width: 1070px) {
+    [type="mainpage"] {
+        flex-direction: column;
+        height: 80%;
+    }
+    div[type="mainpage"] > cr {
+        margin: 0px 20px 0px 20px;
+        border-right: hidden;
+        border-bottom: solid 0.5px rgb(255 255 255 / 45%);
+    }
+    container[type="var-a"] {
+        height: auto;
+        width: 100% !important;
+    }
+    container[type="var-b"] > div#gimmicks-pge > iframe {
+        height: 250% !important;
+        border: hidden !important;
+        overflow: hidden !important;
+        width: 130%;
+        margin-left: -41px;
+    }
+}
+
+h1, h2 {
+    font-family: 'Segoe UI Light';
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+container[type="var-a"] {
+    padding: 20px;
+    width: 35%;
+}
+
+div[type="mainpage"] > cr {
+    margin: 20px 0px 20px 0px;
+    border-right: solid 0.5px rgb(255 255 255 / 45%);
+}
+
+container[type="var-a"] > img {
+    width: calc(100% / 1.75);
+}
+
+container[type="var-a"] > h1 {
+    margin: 10px 0px 10px 0px;
+    font-size: calc(100% * 2.5);
+}
+
+container[type="var-a"] > p {
+    margin: 0;
+    font-size: calc(100% * 1.075);
+}
+
+container[type="var-b"] {
+    padding: 20px;
+    width: 100%;
+}
+
+container[type="var-a"] > div.tabs {
+    margin-top: 15px;
+}
+
+container[type="var-a"] > div.tabs > button {
+    margin: 0;
+    padding: 6px;
+    font-size: calc(100% * 1.075);
+    border-radius: 14px;
+    border: hidden;
+    background-color: rgb(0 0 0 / 25%);
+    cursor: pointer;
+    color: rgb(255 255 255);
+    transition: background-color 0.05s ease;
+}
+container[type="var-a"] > div.tabs > button:hover {
+    background-color: rgb(0 0 0 / 15%);
+}
+
+container[type="var-a"] > div.tabs > button.active {
+    background-color: rgb(255 255 255 / 20%);
+}
+
+container[type="var-b"] > div {
+    width: 100%;
+    height: 100%;
+}
+container[type="var-b"] > div#gimmicks-pge > iframe {
+    height: 100%;
+    border: hidden;
+    border-bottom: solid 0.5px rgb(255 255 255 / 35%);
+    pointer-events: all;
+    user-select: all;
+}
