@@ -61,8 +61,8 @@ display: none;
 }
 img {
 display: block;
-width: 100px;
-height: 100px;
+width: auto;
+height: 70px;
 }
 /* -- Da main page!! -- */
 
@@ -175,5 +175,6 @@ container[type="var-b"] > div#gimmicks-pge > iframe {
     user-select: all;
 
 }
+
 
 
