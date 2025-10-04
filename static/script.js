@@ -33,6 +33,9 @@ document.getElementById('aboutme-pge').classList.add('hide');
 document.getElementById('gimmicks-btn').classList.remove('active');
 document.getElementById('gimmicks-pge').classList.add('hide');
 
+document.getElementById('comforts-btn').classList.remove('active');
+document.getElementById('comforts-pge').classList.add('hide');
+
 document.getElementById('oc-btn').classList.add('active');
 document.getElementById('oc-pge').classList.remove('hide');
 });
