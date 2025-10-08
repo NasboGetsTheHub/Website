@@ -33,7 +33,7 @@ background-position: 0% 50%;
 /* --- The big CSS stuff --- */
 
 html, body {
-    background: center/200% 250% no-repeat linear-gradient(-45deg, #9a1fff, #a940ff, #be73ff, #917aff);
+    background: center/200% 250% no-repeat linear-gradient(-45deg, #9a1fff, #a940ff, #b05b00, #db6200);
     font-family: var(--web-font);
     animation: bg_gradient 15s ease infinite;
     width: 100%;
@@ -185,3 +185,4 @@ container[type="var-b"] > div#gimmicks-pge > iframe {
     pointer-events: all;
     user-select: all;
 }
+
