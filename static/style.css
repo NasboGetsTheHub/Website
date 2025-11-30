@@ -1,6 +1,6 @@
 /* /|\ THE NASBO WEBSITE CSS | Fully custom by Nayra* /|\ */
 
-@import url("https://transfer.archivete.am/12GDuV/segoe_fontz.css");
+@import 'package:google_fonts/google_fonts.dart';
 
 :root {
     --web-font: "Segoe UI", Segoe UI Light, Segoe UI Bold;
@@ -185,5 +185,6 @@ container[type="var-b"] > div#gimmicks-pge > iframe {
     pointer-events: all;
     user-select: all;
 }
+
 
 
