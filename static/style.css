@@ -3,12 +3,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
-    --web-font: "Segoe UI", Segoe UI Light, Segoe UI Bold;
+    --web-font: "Roboto UI", Roboto UI Light, Roboto UI Bold;
 }
 
 *, *::before, *::after {
     box-sizing: border-box;
-    font-family: "Segoe UI";
+    font-family: "Roboto UI";
 	color: white;
 }
 
@@ -46,7 +46,7 @@ html, body {
 }
 
 h1, h2 {
-    font-family: 'Segoe UI Light';
+    font-family: 'Roboto UI Light';
     font-weight: normal;
 }
 h1, h2, p {
@@ -116,7 +116,7 @@ display: none;
 }
 
 h1, h2 {
-    font-family: 'Segoe UI Light';
+    font-family: 'Roboto UI Light';
     font-weight: normal;
     margin: 0;
     padding: 0;
@@ -185,6 +185,7 @@ container[type="var-b"] > div#gimmicks-pge > iframe {
     pointer-events: all;
     user-select: all;
 }
+
 
 
 
