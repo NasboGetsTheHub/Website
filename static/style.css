@@ -41,8 +41,6 @@ html, body {
     overflow: hidden;
     margin: 0;
     padding: 0;
-    user-select: none;
-    pointer-events: none;
 }
 
 h1, h2 {
@@ -202,6 +200,7 @@ container[type="var-b"] > div#gimmicks-pge > input {
   font-variation-settings:
     "wdth" 100;
 }
+
 
 
 
