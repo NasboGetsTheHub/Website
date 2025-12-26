@@ -29,7 +29,7 @@ background-position: 25% 50%;
 background-position: 0% 50%;
 }
 }
-
+/* above is the background colors transtions */
 /* --- The big CSS stuff --- */
 
 html, body {
@@ -184,10 +184,17 @@ container[type="var-b"] > div#gimmicks-pge > iframe {
     user-select: all;
 }
 .submit-btn { 
-	background-color: #04AA6D; /* Green background */
+	background-color: #9C46FF; /* purple background button */
     border: none;
     padding: 15px 32px; /* Space between text and border */
-    text-align: center;
+    text-align: center; /* put the text on the middle, center */
+	text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer; /* changes mouse cursor on hover */
+    border-radius: 8px; /* rounded corners */
+    transition-duration: 0.4s; /* smooth transition for hover effects */
+
 }
 // <weight>: Use a value from 100 to 900
 // <uniquifier>: Use a unique and descriptive class name
@@ -199,6 +206,7 @@ container[type="var-b"] > div#gimmicks-pge > iframe {
   font-variation-settings:
     "wdth" 100;
 }
+
 
 
 
