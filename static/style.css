@@ -183,12 +183,11 @@ container[type="var-b"] > div#gimmicks-pge > iframe {
     pointer-events: all;
     user-select: all;
 }
-container[type="var-b"] > div#gimmicks-pge > input {
-    height: 100%;
-    border: hidden;
-    border-bottom: solid 0.5px rgb(255 255 255 / 35%);
-    pointer-events: all;
-    user-select: all;
+.submit-btn { 
+	background-color: #04AA6D; /* Green background */
+    border: none;
+    padding: 15px 32px; /* Space between text and border */
+    text-align: center;
 }
 // <weight>: Use a value from 100 to 900
 // <uniquifier>: Use a unique and descriptive class name
@@ -200,6 +199,7 @@ container[type="var-b"] > div#gimmicks-pge > input {
   font-variation-settings:
     "wdth" 100;
 }
+
 
 
 
