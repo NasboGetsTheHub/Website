@@ -29,7 +29,6 @@ background-position: 25% 50%;
 background-position: 0% 50%;
 }
 }
-/* above is the background colors transtions */
 /* --- The big CSS stuff --- */
 
 html, body {
@@ -183,18 +182,6 @@ container[type="var-b"] > div#gimmicks-pge > iframe {
     border-bottom: solid 0.5px rgb(255 255 255 / 35%);
     pointer-events: all;
     user-select: all;
-}
-
-}
-// <weight>: Use a value from 100 to 900
-// <uniquifier>: Use a unique and descriptive class name
-.roboto-<uniquifier> {
-  font-family: "Roboto", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
 }
 
 
