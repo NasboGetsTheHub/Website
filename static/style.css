@@ -185,6 +185,13 @@ container[type="var-b"] > div#gimmicks-pge > iframe {
     pointer-events: all;
     user-select: all;
 }
+container[type="var-b"] > div#gimmicks-pge > input {
+    height: 100%;
+    border: hidden;
+    border-bottom: solid 0.5px rgb(255 255 255 / 35%);
+    pointer-events: all;
+    user-select: all;
+}
 // <weight>: Use a value from 100 to 900
 // <uniquifier>: Use a unique and descriptive class name
 .roboto-<uniquifier> {
@@ -195,6 +202,7 @@ container[type="var-b"] > div#gimmicks-pge > iframe {
   font-variation-settings:
     "wdth" 100;
 }
+
 
 
 
