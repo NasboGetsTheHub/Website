@@ -176,6 +176,11 @@ container[type="var-b"] > div {
     width: 100%;
     height: 100%;
 }
+div.ex1 {
+  width: 110px;
+  height: 110px;
+  overflow: scroll;
+}
 container[type="var-b"] > div#gimmicks-pge > iframe {
     height: 100%;
     border: hidden;
@@ -183,6 +188,7 @@ container[type="var-b"] > div#gimmicks-pge > iframe {
     pointer-events: all;
     user-select: all;
 }
+
 
 
 
