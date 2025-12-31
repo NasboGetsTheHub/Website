@@ -1,4 +1,4 @@
-/* /|\ THE NASBO WEBSITE CSS | Fully custom by Nayra* /|\ */
+/* WEBSITE CSS */
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
@@ -29,7 +29,7 @@ background-position: 25% 50%;
 background-position: 0% 50%;
 }
 }
-/* --- The big CSS stuff --- */
+/* The big packages of CSS */
 
 html, body {
     background: center/200% 250% no-repeat linear-gradient(-45deg, #9a1fff, #a940ff, #a8457b, #db6200);
@@ -57,7 +57,7 @@ button {
 display: none;
 }
 
-/* -- Da main page!! -- */
+/* == The main page == */
 
 [type="mainpage"] {
     background: rgb(255 255 255 / 35%);
@@ -183,6 +183,7 @@ container[type="var-b"] > div#gimmicks-pge > iframe {
     pointer-events: all;
     user-select: all;
 }
+
 
 
 
