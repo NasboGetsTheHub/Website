@@ -98,13 +98,7 @@ display: none;
         width: 130%;
         margin-left: -41px;
     }
-	 .scrollable-container {
-		 width:300px;
-		 height:200px;
-		 border: 1px solid #ccc;
-		 padding: 10px;
-		 overflow: auto; 
-}
+	
     container[type="var-a"] > h1 {
         font-size: calc(170%)!important;
     }
@@ -189,6 +183,7 @@ container[type="var-b"] > div#gimmicks-pge > iframe {
     pointer-events: all;
     user-select: all;
 }
+
 
 
 
