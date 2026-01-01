@@ -190,6 +190,13 @@ container[type="var-b"] > div#aboutme-pge > scrollable-paragraph {
     margin: 0;
     padding-right: 15px;
 }
+.scrollable-paragraph {
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    margin: 0;
+    padding-right: 15px;
+}
 
 
 
