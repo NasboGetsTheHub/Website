@@ -183,7 +183,6 @@ container[type="var-b"] > div {
     height: auto;
     overflow-y: auto;
     padding: auto;
-    border: 1px solid #ac94ff;
 }
 container[type="var-b"] > div#aboutme-pge > .scrollable-container::-webkit-scrollbar {
     width: 8px;
@@ -205,6 +204,7 @@ container[type="var-b"] > div#gimmicks-pge > iframe {
     pointer-events: all;
     user-select: all;
 }
+
 
 
 
