@@ -197,12 +197,29 @@ container[type="var-b"] > div#aboutme-pge > .scrollable-container::-webkit-scrol
 }
 
 /* == Gimmicks page== */
-container[type="var-b"] > div#gimmicks-pge > iframe {
-    height: 100%;
+container[type="var-b"] > div#gimmicks-pge > form > input[type="text"] {
+    flex: 1;
+    padding: 8px;
+    border-radius: 26px;
     border: hidden;
-    border-bottom: solid 0.5px rgb(255 255 255 / 35%);
-    pointer-events: all;
-    user-select: all;
+    background-color: #c999ff87;
+    margin-right: 10px;
+}
+container[type="var-b"] > div#gimmicks-pge > form > input[type="submit"] {
+    padding: 8px 16px;
+    border-radius: 26px;
+    border: hidden;
+    background-color: #B14FFF;
+    color: white;
+    cursor: pointer;
+}
+container[type="var-b"] > div#gimmicks-pge > form {
+    margin-top: 10px;
+    display: flex;
+}   
+container[type="var-b"] > div#gimmicks-pge > form > input[type="submit"]:hover {
+    background-color:#A769FF;
+    transition: background-color 0.2s ease;
 }
 
 
