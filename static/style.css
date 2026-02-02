@@ -32,7 +32,7 @@ background-position: 0% 50%;
 /* The big packages of CSS */
 
 html, body {
-    background: center/200% 250% no-repeat linear-gradient(-45deg, #9a1fff, #a940ff, #a8457b, #db6200);
+    background: center/200% 250% no-repeat linear-gradient(-45deg, #9a1fff, #b96bff, #ffb245, #ffbC2C);
     font-family: var(--web-font);
     animation: bg_gradient 15s ease infinite;
     width: 100%;
@@ -221,6 +221,7 @@ container[type="var-b"] > div#gimmicks-pge > form > input[type="submit"]:hover {
     background-color:#A769FF;
     transition: background-color 0.2s ease;
 }
+
 
 
 
